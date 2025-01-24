@@ -72,7 +72,7 @@ kubectl expose deployment {deployment_name}                      # Exposes a dep
 ```
 
 - **Service Types:**
-  - **ClusterIP**: Accessible only within the cluster.
+  - **ClusterIP**: Accessible only within the cluster.Have to use port-forward to get inside the pod
   - **NodePort**: Exposes the service on a cluster-wide port (30000-32767).
   - **LoadBalancer**: Provides an external IP address.
 
