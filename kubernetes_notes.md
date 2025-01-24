@@ -96,6 +96,7 @@ kubectl create namespace {namespace_name}                         # Creates a ne
 kubectl config set-context --current --namespace {namespace_name} # Switches to a namespace.
 ~/.kube/config                                                    # Path to the kubeconfig file for manual edits.
 kubectl delete namespace {namespace_name}                         # Deletes a namespace.
+kubectl get all --all-namespaces                                  # Displays objects of all namespaces
 ```
 
 ---
