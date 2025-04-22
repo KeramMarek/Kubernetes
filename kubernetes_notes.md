@@ -403,4 +403,6 @@ spec:
 # command to save it to file:
 ```bash
  curl http://localhost:8080 -o kube_mg.txt
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
 ```
